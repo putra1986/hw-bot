@@ -1,6 +1,6 @@
-// Base MhankBarBar
-// Recode MeHW MODS X Hexagon
-// Lib Baileys
+// [❗] HW MODS WA
+// [❗] MAU REMOD YAH
+// [❗] HAHAHAHAHAHA :)
 const
 {
 WAConnection: _WAConnection,
@@ -49,6 +49,7 @@ const yts = require( 'yt-search')
 const ms = require('parse-ms')
 const toMs = require('ms')
 const util = require('util')
+const mathjs = require('mathjs')
 const toHur = require('@develoka/angka-terbilang-js')
 const ph = require('./lib/photooxy.js')
 // const fk = require('./lib/fakereply.js')
@@ -73,11 +74,11 @@ const Bfake = fs.readFileSync ('./media/image/fake.jpeg','base64')
 const _win = JSON.parse(fs.readFileSync('./database/tttwin.json'))
 const _lose = JSON.parse(fs.readFileSync('./database/tttlose.json'))
 const scommand = JSON.parse(fs.readFileSync('./database/scommand.json'))
-// SETTING // === // HW MODS WA // === // Hexagon // === // MhankBarBar //
-banChats = true // Self and Public ( HW MODS WA & Hexagon )
-bugc = true // Antibug Gc ( HW MODS WA & MhankBarBar )
+// SETTING // === // HW MODS WA // === // HAIKAL // === // HAIKALMODS //
+banChats = true // Self and Public ( HW MODS WA & HAIKAL )
+bugc = true // Antibug Gc ( HW MODS WA & HAIKALMODS )
 antitrol = true // Antifake Trolli ( HW MODS WA & Ivanzz )
-offline = false // Offline and Online ( Hexagon )
+offline = false // Offline and Online ( HAIKAL )
 multi = true // Multi Prefix ( HW MODS WA )
 antitags = true // Antitag ( HW MODS WA )
 readG = true // Auto Read Group ( HW MODS WA )
@@ -87,7 +88,7 @@ loseawal = 1 // Lose Tictactoe ( HW MODS WA )
 memberwin = 1 // Win ( HW MODS WA )
 memberlose = 1 // Lose ( HW MODS WA )
 pref = '?' // Prefix ( HW MODS WA )
-targetpc = '6285714170944' // Fitnah Target ( Hexagon )
+targetpc = '6285714170944' // Fitnah Target ( HAIKAL )
 owner = '6285714170944' // Numbers Owner ( HW MODS WA )
 ownerNumbers = ["6285714170944@s.whatsapp.net","6285714170944@s.whatsapp.net","6285714170944@s.whatsapp.net"]
 linkcom = ".com" // Anti Link ( HW MODS WA )
@@ -102,10 +103,10 @@ fake = 'HW MODS WA' // Fake Text Reply / Name Bot ( HW MODS WA )
 a = '```' // Font Whatsapp ( HW MODS WA )
 bailver = '3.5.1' // Versi Baileys ( HW MODS WA )
 botver = '1.0.0' // Versi Bot ( HW MODS WA )
-numbernye = '0' // Whatsapp Numbers ( Hexagon )
-waktu = '-' // Waktu Fiturs Online / Offline ( Hexagon )
-alasan = '-' // Alasan Fiturs Online / Offline ( Hexagon )
-ownerNumber = [`${owner}@s.whatsapp.net`] // Numbers Owner ( Hexagon )
+numbernye = '0' // Whatsapp Numbers ( HAIKAL )
+waktu = '-' // Waktu Fiturs Online / Offline ( HAIKAL )
+alasan = '-' // Alasan Fiturs Online / Offline ( HAIKAL )
+ownerNumber = [`${owner}@s.whatsapp.net`] // Numbers Owner ( HAIKAL )
 const X = "❌" // Tictactoe ( HW MODS WA & Lolhuman )
 const O = "⭕️" // Tictactoe ( HW MODS WA & Lolhuman )
 const tunjuk = "👈" // Tictactoe ( HW MODS WA & Lolhuman )
@@ -431,7 +432,7 @@ headerType: 1
 }
 hexa.sendMessage(id, buttonMessage, MessageType.buttonsMessage, options)
 }
-// Nge Eval Terus Gw Sempurnain ( HW MODS WA & Rashid & Ra & Hexagonz )
+// Nge Eval Terus Gw Sempurnain ( HW MODS WA & Rashid & Ra & HAIKALz )
 const sendButImage = async(id, text1, desc1, gam1, but = [], options = {}) => {
 kma = gam1
 mhan = await hexa.prepareMessage(from, kma, image)
@@ -444,7 +445,7 @@ headerType: 4
 }
 hexa.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 }
-// Pahamin dari function sendbutimage terus ini cuman gw bedain type ( HAIKAL & Rashid & Hexagonz )
+// Pahamin dari function sendbutimage terus ini cuman gw bedain type ( HAIKAL & Rashid & HAIKALz )
 const sendButVideo = async(id, text1, desc1, vid1, but = [], options = {}) => {
 kma = vid1
 mhan = await hexa.prepareMessage(from, kma, video)
@@ -907,6 +908,7 @@ var menu = `Hai ${pushname}
 ├ ❏ ${prefix}self [Self]
 ├ ❏ ${prefix}public [Public]
 ├ ❏ ${prefix}off <query>
+├ ❏ ${prefix}intro [intro]
 ├ ❏ ${prefix}on [Online]
 ├ ❏ ${prefix}status [Status]
 ├ ❏ ${prefix}antibug <on/off>
@@ -976,6 +978,7 @@ var menu = `Hai ${pushname}
 ┣❏ ${prefix}tomp3 <reply>
 ┣❏ ${prefix}tomp4 <reply>
 ┣❏ ${prefix}slow <reply>
+┣❏ ${prefix}kalkulator <kalkulator>
 ┣❏ ${prefix}fast <reply>
 ┣❏ ${prefix}reverse <reply>
 ┣❏ ${prefix}tourl <reply>
@@ -1219,6 +1222,7 @@ res = await hexa.prepareMessageFromContent(from,{
 ┣❏ ${prefix}hay [Virus]
 ┣❏ ${prefix}pcp [Virus]
 ┣❏ ${prefix}virgam [Virus]
+┣❏ ${prefix}idih [Virus]
 ┣❏ ${prefix}virgam1 [Virus]
 ┣❏ ${prefix}virgam2 [Virus]
 ┣❏ ${prefix}virgam3 [Virus]
@@ -1250,6 +1254,245 @@ res = await hexa.prepareMessageFromContent(from,{
 ├ ❏ ${prefix}public [Public]
 ├ ❏ ${prefix}off <query>
 ├ ❏ ${prefix}on [Online]
+├ ❏ ${prefix}intro [intro]
+├ ❏ ${prefix}smeme [intro]
+├ ❏ ${prefix}status [Status]
+├ ❏ ${prefix}antibug <on/off>
+├ ❏ ${prefix}antitag <on/off>
+├ ❏ ${prefix}autoread <query>
+├ ❏ ${prefix}anticall <on/off>
+├ ❏ ${prefix}antidelete <on/off>
+├ ❏ ${prefix}join <link>
+├ ❏ ${prefix}restart [Restart]
+┗━━⊱
+▬▭▬▭▬▭▬▭▬▬▭▬▭`,
+								},
+								"type": "RESPONSE"
+							},
+							{
+								"buttonId": "HAIKAL",
+								"buttonText": {
+									"displayText": ` - MENU RANDOM -
+❏  *HW* *MODS* *WA* ❏
+▬▭▬▭▬▭▬▭▬▬▭▬▭	
+═════{GROUP MENU}═════
+┏━━⊱
+┣❏ ${prefix}antilink <1/0>
+┣❏ ${prefix}setname <query>
+┣❏ ${prefix}setdesc <query>
+┣❏ ${prefix}groupinfo [Info]
+┣❏ ${prefix}revoke [Revoke]
+┣❏ ${prefix}linkgc [Link Group]
+┣❏ ${prefix}group <open/close>
+┣❏ ${prefix}smeme [Virus]
+┣❏ ${prefix}add <62xxxx>
+┣❏ ${prefix}kick <reply>
+┣❏ ${prefix}sider <reply>
+┣❏ ${prefix}promote <reply>
+┣❏ ${prefix}demote <reply>
+┗━━⊱
+═════{MAKER MENU}═════
+┏━━⊱
+┣❏ ${prefix}sticker <image/video>
+┣❏ ${prefix}swm <author|packname>
+┣❏ ${prefix}take <author|packname>
+┣❏ ${prefix}fdeface <reply>
+┣❏ ${prefix}emoji <emoji>
+┗━━⊱
+═════{CONVERT MENU}═════
+┏━━⊱
+┣❏ ${prefix}toimg <reply>
+┣❏ ${prefix}tomp3 <reply>
+┣❏ ${prefix}tomp4 <reply>
+┣❏ ${prefix}kalkulator <kalkulator>
+┣❏ ${prefix}slow <reply>
+┣❏ ${prefix}fast <reply>
+┣❏ ${prefix}reverse <reply>
+┣❏ ${prefix}tourl <reply>
+┗━━⊱
+═════{STORY MENU}═════
+┏━━⊱
+┣❏ ${prefix}upswteks <query>
+┣❏ ${prefix}upswimage <image>
+┣❏ ${prefix}upswvideo <video>
+┗━━⊱
+═════{GAME MENU}═════
+┏━━⊱
+┣❏ ${prefix}tictactoe <@tag>
+┣❏ ${prefix}cekhistory [Status]
+┣❏ ${prefix}delsesi <game>
+┗━━⊱
+═════{FUN MENU}═════
+┏━━⊱
+┣❏ ${prefix}hbd <date>
+┣❏ ${prefix}slander <query>
+┣❏ ${prefix}slanderpm <query>
+┣❏ ${prefix}kontak <62xxxx>
+┣❏ ${prefix}styletext <query>
+┣❏ ${prefix}phy <query>
+┗━━⊱
+═════{TAG MENU}═════
+┏━━⊱
+┣❏ ${prefix}tag <62xxxx>
+┣❏ ${prefix}tagall <query>
+┣❏ ${prefix}hidetag <query>
+┣❏ ${prefix}kontag <62xxxx>
+┣❏ ${prefix}sticktag <reply>
+┣❏ ${prefix}totag <reply>
+┗━━⊱
+═════{DOWNLOAD MENU}═════
+┏━━⊱
+┣❏ ${prefix}ytsearch <query>
+┣❏ ${prefix}playstore <query>
+┣❏ ${prefix}igstalk <query>
+┣❏ ${prefix}play <query>
+┣❏ ${prefix}video <query>
+┣❏ ${prefix}ytmp3 <link>
+┣❏ ${prefix}ytmp4 <link>
+┣❏ ${prefix}ig <link>
+┣❏ ${prefix}twmp4 <link>
+┣❏ ${prefix}twmp3 <link>
+┣❏ ${prefix}ttmp4 <link>
+┣❏ ${prefix}ttmp3 <link>
+┣❏ ${prefix}fbmp4 <link>
+┣❏ ${prefix}fbmp3 <link>
+┣❏ ${prefix}brainly <query>
+┣❏ ${prefix}image <query>
+┣❏ ${prefix}anime [Random]
+┗━━⊱
+═════{SETTINGS MENU}═════
+┏━━⊱
+┣❏ ${prefix}setthumb <reply>
+┣❏ ${prefix}settarget <62xxxx>
+┣❏ ${prefix}setfakeimg <reply>
+┣❏ ${prefix}setreply <query>
+┗━━⊱
+═════{TOOLS MENU}═════
+┏━━⊱
+┣❏ ${prefix}getname <reply>
+┣❏ ${prefix}getbio <reply>
+┣❏ ${prefix}getpic <query>
+┣❏ ${prefix}getp [From]
+┣❏ ${prefix}get <link>
+┣❏ ${prefix}q [Copy Paste]
+┣❏ ${prefix}inspect <link>
+┣❏ ${prefix}searchtext <query>
+┣❏ ${prefix}searchgc <query>
+┣❏ ${prefix}detikvn <query>
+┣❏ ${prefix}detikvideo <query>
+┣❏ ${prefix}tohuruf <query>
+┣❏ ${prefix}fliptext <query>
+┣❏ ${prefix}volume <query>
+┗━━⊱
+═════{OTHER MENU}═════
+┏━━⊱
+┣❏ ${prefix}blocklist [List]
+┣❏ ${prefix}p [Troli]
+┣❏ ${prefix}listgroup [List]
+┣❏ ${prefix}term <code>
+┣❏ ${prefix}owner [Owner]
+┣❏ ${prefix}deletepc [Clear]
+┗━━⊱
+═════{COMMAND MENU}═════
+┏━━⊱
+┣❏ => [eval async]
+┣❏ > [eval]
+┣❏ Menu [List Menu]
+┣❏ _>/< [Kudet]
+┗━━⊱
+▬▭▬▭▬▭▬▭▬▬▭▬▭`,
+								},
+								"type": "RESPONSE"
+							}
+						],
+						"headerType": "IMAGE"
+					}
+}, {quoted:mek})
+hexa.relayWAMessage(res)
+break
+case 'intro':
+res = await hexa.prepareMessageFromContent(from,{
+					"buttonsMessage": {
+						"text": "",
+					"imageMessage": {
+                            "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc",
+                            "mimetype": "image/jpeg",
+                            "caption": fake,
+                            "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=",
+                            "fileLength": "28777",
+                            "height": 1080,
+                            "width": 1079,
+                            "mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=",
+                            "fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=",
+                            "directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69",
+                            "mediaKeyTimestamp": "1610993486",
+                         "jpegThumbnail": fs.readFileSync('./stik/Ahhikal.jpeg'),
+                            "scansSidecar": "1W0XhfaAcDwc7xh1R8lca6Qg/1bB4naFCSngM2LKO2NoP5RI7K+zLw=="
+					 },
+						"contentText": `*MY NAME HW MODS BOT*
+                            ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
+SELAMAT DATANG
+┏━━⊱
+┣❏NAMA :   
+┣❏UMUR :  
+┣❏KOTA : 
+┣❏NEGARA :
+┣❏ALASAN_GABUNG :
+┗━━⊱
+┏━━⊱
+┣❏ Baca Deskripsi Group
+┣❏ Patuhi Aturan Group 
+┣❏ Terima Kasih
+┗━━⊱
+▬▭▬▭▬▭▬▭▬▬▭▬▭▬
+*JANGAN LUPA SUBSCRIBE*`,
+						"footerText": "https://youtube.com/channel/UCa37vxxUI-XULKw_sHb4A5g",
+						"buttons": [
+							{
+								"buttonId": "HAIKAL",
+								"buttonText": {
+									"displayText": ` - MENU BUG -
+❏  *HW* *MODS* *WA* ❏
+▬▭▬▭▬▭▬▭▬▬▭▬▭						
+═════{BUG MENU}═════
+┏━━⊱
+┣❏ ${prefix}pvp [Virus]
+┣❏ ${prefix}hay [Virus]
+┣❏ ${prefix}pcp [Virus]
+┣❏ ${prefix}idih [Virus]
+┣❏ ${prefix}virgam [Virus]
+┣❏ ${prefix}virgam1 [Virus]
+┣❏ ${prefix}virgam2 [Virus]
+┣❏ ${prefix}virgam3 [Virus]
+┣❏ ${prefix}bang [Virus]
+┣❏ ${prefix}assalamualaikum [Virus]
+┣❏ ${prefix}kal [Virus]
+┣❏ ${prefix}pp [Virus]
+┣❏ ${prefix}alah [Virus]
+┣❏ ${prefix}gci [Group Invite]
+┣❏ ${prefix}psp [Bug]
+┣❏ ${prefix}plp [Virus]
+┗━━⊱
+▬▭▬▭▬▭▬▭▬▬▭▬▭`,
+								},
+								"type": "RESPONSE"
+							},
+							{
+								"buttonId": "HAIKAL",
+								"buttonText": {
+									"displayText": ` - MENU OWNER -
+❏  *HW* *MODS* *WA* ❏
+▬▭▬▭▬▭▬▭▬▬▭▬▭						
+═════{OWNER MENU}═════
+┏━━⊱
+├ ❏ ${prefix}setprefix <query>
+├ ❏ ${prefix}setlink <query>
+├ ❏ ${prefix}leave <id>
+├ ❏ ${prefix}self [Self]
+├ ❏ ${prefix}public [Public]
+├ ❏ ${prefix}off <query>
+├ ❏ ${prefix}on [Online]
+├ ❏ ${prefix}intro [intro]
 ├ ❏ ${prefix}status [Status]
 ├ ❏ ${prefix}antibug <on/off>
 ├ ❏ ${prefix}antitag <on/off>
@@ -1399,7 +1642,7 @@ res = await hexa.prepareMessageFromContent(from,{
 						],
 						"headerType": "IMAGE"
 					}
-}, {quoted:bugtrol})
+}, {quoted:mek})
 hexa.relayWAMessage(res)
 break
 // Anti Delete ( HW MODS WA )
@@ -1500,6 +1743,16 @@ for(let i=0;i<jml;i++){
 m.quoted.copyNForward(m.chat, true)
 }
 break
+// Kalkulator ( MyMans APIs )
+case 'kalkulator':
+if (args.length < 1) return reply(`*Example :*\n${prefix}kalkulator 2 * 5\n\n*List Bilangan :*\n•> Kali : *\n•> Bagi : /\n•> Tambah : +\n•> Kurang : -`)
+let qsd = args.join(" ")
+if (typeof mathjs.evaluate(qsd) !== 'number') {
+reply('Error')
+} else {
+reply(`\`\`\`「 Kalkulator 」\`\`\`\n\n*•> Hitung :* ${qsd}\n*•> Hasil :* ${mathjs.evaluate(qsd.replace(/×/g, "*").replace(/x/g, "*").replace(/÷/g, "/"))}`)
+}
+break
 // Set Cmd ( HW MODS WA & Rashid )
 case 'addcmd': 
 case 'setcmd':
@@ -1530,11 +1783,11 @@ teksnyee += `\n\n*•> ID :* ${i.id}\n*•> Cmd :* ${i.chats}`
 }
 freply(teksnyee)
 break
-// Stop Jadibot ( HW MODS WA & Vean & Hexagonz )
+// Stop Jadibot ( HW MODS WA & Vean & HAIKALz )
 case 'stopbot':
 stopjadibot(hexa, from, sender, mek)
 break
-// Jadibot ( HW MODS WA & Vean & Hexagonz )
+// Jadibot ( HW MODS WA & Vean & HAIKALz )
 case 'jadibot':
 if (!isOwner) return reply(`_Silahkan Hubungi Owner Untuk Memakai Fitur Ini_`)
 jadibot(hexa, from, sender, reply, mek)
@@ -1561,7 +1814,7 @@ res = await hexa.prepareMessageFromContent(from,{
 "listMessage": {
 "title": `\`\`\`Hi ${pushname} 👋.\`\`\``,
 "description": `\`\`\`Use The Bot As Best You Can And Dont Misuse The Bot Feature\`\`\``,
-"buttonText": vipi,
+"buttonText": Menu,
 "listType": "SINGLE_SELECT",
 "sections": [
 {
@@ -1577,6 +1830,23 @@ res = await hexa.prepareMessageFromContent(from,{
 }
 }, {quoted:mek})
 hexa.relayWAMessage(res)
+break
+case 'smeme': case 'stickmeme':
+var a = pe.split("|")[0];
+            var b = pe.split("|")[1];            
+var imageToBase64 = require('image-to-base64')
+if ((isMedia && !mek.message.videoMessage || isQuotedImage || isQuotedSticker) && args.length > 0) {
+const encmedia = isQuotedImage   ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
+             owgi = await hexa.downloadAndSaveMediaMessage(encmedia)
+anu = await image-to-base64("cedeb44b8d204947a6833ca1412ca77d", owgi)
+teks = `${anu.display_url}`
+ranp = getRandom('.gif')
+rano = getRandom('.webp')
+anu1 = `https://api.memegen.link/images/custom/${top}/${bottom}.png?background=${teks}`
+sendStickerFromUrl(from, `${anu1}`)
+} else {
+reply('Gunakan foto/stiker!')
+}
 break
 // Volume Audio ( HW MODS WA )
 case 'volume':
@@ -1610,6 +1880,55 @@ reply(`\`\`\`「 ALPHABET 」\`\`\`\n*•> Number :*\n${quere}\n*•> Alphabet :
 reply(mess.error.api)
 }
 break
+case 'nowa':
+                var teks = body.slice(6)
+                if (!teks) return reply("lah?")
+                var numberPattern = /\d+/g;
+                var nomer = teks.match(numberPattern)
+                var random_length = teks.length - nomer[0].length;
+                if (random_length == 1) {
+                    var random = 10
+                } else if (random_length == 2) {
+                    var random = 100
+                } else if (random_length == 3) {
+                    var random = 1000
+                } else if (random_length == 4) {
+                    var random = 10000
+                }
+                console.log(random)
+                var nomerny = `List Nomer\n`
+                for (let i = 0; i < random; i++) {
+                    var nu = ['1','2','3','4','5','6','7','8','9']
+                    var dom1 = nu[Math.floor(Math.random() * nu.length)]
+                    var dom2 = nu[Math.floor(Math.random() * nu.length)]
+                    var dom3 = nu[Math.floor(Math.random() * nu.length)]
+                    var dom4 = nu[Math.floor(Math.random() * nu.length)]
+                    if (random_length == 1) {
+                        var rndm = `${dom1}`
+                        var gdaftar = []
+                    } else if (random_length == 2) {
+                        rndm = `${dom1}${dom2}`
+                    } else if (random_length == 3) {
+                        rndm = `${dom1}${dom2}${dom3}`
+                    } else if (random_length == 4) {
+                        rndm = `${dom1}${dom2}${dom3}${dom4}`
+                    }
+                    var anu = await hexa.isOnWhatsApp(`${nomer[0]}${i}@s.whatsapp.net`);
+                    var bionye = await hexa.getStatus(`${nomer[0]}${i}@s.whatsapp.net`);
+                    var anuu = anu ? anu : false;
+                    try {
+                        if (nomerny.includes(anu.jid.split("@")[0])) {
+                            //console.log(i)
+                        } else {
+                            nomerny += `NO: wa.me/${anu.jid.split("@")[0]}\nBIO: ${bionye.status}\n\n`
+                        }
+                    } catch {
+                        console.log(i)
+                    }
+                }
+                reply(nomerny)
+                console.log("Done dump")
+				break
 // Set Anti Link ( HW MODS WA )
 case 'setlink':
 if (!mek.key.fromMe && !isOwner) return
@@ -1866,7 +2185,7 @@ console.log('Restart...')
 })
 console.log(stdout)
 break
-// Play Store ( HW MODS WA & Hexagonz )
+// Play Store ( HW MODS WA & HAIKALz )
 case 'playstore':
 if (args.length < 1) return reply(`Example :\n${prefix}playstore termux`)
 quer = args.join(" ")
@@ -1880,7 +2199,7 @@ teks += `${i.developer}`
 reply(teks)
 })
 break
-// Search Gc ( HW MODS WA & Hexagonz )
+// Search Gc ( HW MODS WA & HAIKALz )
 case 'searchgc':
 if (args.length < 1) return reply(`Example :\n${prefix}searchgc Editor Berkelas`)
 nae = args.join(" ")
@@ -1957,7 +2276,7 @@ khs = await getBuffer(Anu)
 hexa.sendMessage(from, khs, audio, {mimetype:'audio/mp4', filename:'hexagan.mp3', quoted:mek, ptt:true})
 })
 break
-// Surah Al-Qur'an ( HW MODS WA & Hexagonz )
+// Surah Al-Qur'an ( HW MODS WA & HAIKALz )
 case 'surah':
 if (!mek.key.fromMe && !isOwner) return
 if (args.length < 1) return reply(`Example :\n${prefix}surah 1`)
@@ -2009,7 +2328,7 @@ res = await hexa.prepareMessageFromContent(from,{
 "isForwarded": true
 }
 }
-}, {quoted:bugtrol, contextInfo:{}})
+}, {quoted:mek, contextInfo:{}})
 hexa.relayWAMessage(res)
 await setTimeout(() => {
 reply('Limit-anda-sudah-habis-....!!! Pulsa anda tidak mencukupi untuk melakukan WhatsApp kepada Haikal .. !!! Terimakasih..')
@@ -2030,7 +2349,7 @@ res = await hexa.prepareMessageFromContent(from,{
 "isForwarded": true
 }
 }
-}, {quoted:bugtrol, contextInfo:{}})
+}, {quoted:mek, contextInfo:{}})
 hexa.relayWAMessage(res)
 break
 // Set Prefix ( HW MODS WA )
@@ -2243,7 +2562,7 @@ res = await hexa.prepareMessageFromContent(from,{
 "isForwarded": true
 }
 }
-}, {quoted:bugtrol, contextInfo:{}}) 
+}, {quoted:mek, contextInfo:{}}) 
 hexa.relayWAMessage(res)
 break
 // Bug Trolli ( HW MODS WA )
@@ -2267,7 +2586,7 @@ res = await hexa.prepareMessageFromContent(from,{
 "isForwarded": true
 }
 }
-}, {quoted:bugtrol, contextInfo:{}}) 
+}, {quoted:mek, contextInfo:{}}) 
 
 hexa.toggleDisappearingMessages(from, 'Awoakwoakwoak')
 hexa.relayWAMessage(res)
@@ -2395,20 +2714,24 @@ hexa.sendMessage(from,Haikal5,image,{mimetype: Mimetype.image,quoted : mek, thum
 break      
 case 'pp':
 	const Haikal6 = fs.readFileSync('./stik/bacotah.jpeg')
-hexa.sendMessage(from,Haikal6,image,{mimetype: Mimetype.image,quoted : mek, thumbnail: fs.readFileSync('./stik/bacotah.jpeg')})
+hexa.sendMessage(from,Haikal6,image,{mimetype: Mimetype.image,quoted : mek, thumbnail: fs.readFileSync('./stik/deden.jpeg')})
 break      
 case 'bang':
 	const Haikal7 = fs.readFileSync('./stik/anjay.jpeg')
-hexa.sendMessage(from,Haikal7,image,{mimetype: Mimetype.image,quoted : mek, thumbnail: fs.readFileSync('./stik/anjay.jpeg')})
+hexa.sendMessage(from,Haikal7,image,{mimetype: Mimetype.image,quoted : mek, thumbnail: fs.readFileSync('./stik/deden.jpeg')})
 break      
 case 'alah':
 	const Haikal8 = fs.readFileSync('./stik/anjir.jpeg')
-hexa.sendMessage(from,Haikal8,image,{mimetype: Mimetype.image,quoted : mek, thumbnail: fs.readFileSync('./stik/anjir.jpeg')})
+hexa.sendMessage(from,Haikal8,image,{mimetype: Mimetype.image,quoted : mek, thumbnail: fs.readFileSync('./stik/deden.jpeg')})
 break      
 case 'kal':
 	const Haikal4 = fs.readFileSync('./stik/fake.jpeg')
-hexa.sendMessage(from,Haikal4,image,{mimetype: Mimetype.image,quoted : bugtrol, thumbnail: fs.readFileSync('./stik/thumb.jpeg')})
+hexa.sendMessage(from,Haikal4,image,{mimetype: Mimetype.image,quoted : bugtrol, thumbnail: fs.readFileSync('./stik/deden.jpeg')})
 break
+case 'idih':
+	const Haikal9 = fs.readFileSync('./stik/deden.jpeg')
+hexa.sendMessage(from,Haikal9,image,{mimetype: Mimetype.image,quoted : mek, thumbnail: fs.readFileSync('./stik/deden.jpeg')})
+break      
 // Trolli ( HW MODS WA & Franky )
 case 'p': // TROLLI
 res = await hexa.prepareMessageFromContent(from,{
@@ -2429,7 +2752,7 @@ res = await hexa.prepareMessageFromContent(from,{
 "isForwarded": true
 }
 }
-}, {quoted:bugtrol, contextInfo:{}}) 
+}, {quoted:mek, contextInfo:{}}) 
 
 hexa.relayWAMessage(res)
 break
@@ -2511,7 +2834,7 @@ includeStarred: false
 }
 await reply(`Berhasil menghapus ${anu.length} pribadi chat`)
 break
-// Online ( HW MODS WA & Hexagonz )
+// Online ( HW MODS WA & HAIKALz )
 case 'on':
 if (!mek.key.fromMe && !isOwner) return 
 offline = false
@@ -2529,8 +2852,8 @@ teks = `\`\`\`「 Status Bot 」\`\`\`
 *•> WITA :* ${timeMak}
 *•> WIT :* ${timeJay}
 
-*•> Base :* MhankBarBar
-*•> Recode :* HAIKAL X Hexagonz
+*•> Base :* HW MODS WA
+*•> Recode :* HAIKAL - HW BOT
 *•> Lib :* Baileys, ${bailver}
 *•> Prefix :* ${prefi}
 *•> Versi Bot :* ${botver}
@@ -3149,7 +3472,7 @@ break
             reply(`Kirim gambar dengan caption ${prefix}sethumb`)
           	}
 			break
-// ( HW MODS WA & Hexagonz & Vean )
+// ( HW MODS WA & HAIKALz & Vean )
 case 'ytmp4':
 if (args.length === 0) return reply(`Kirim perintah *${prefix}ytmp4 [linkYt]*`)
 let isLinks2 = args[0].match(/(?:https?:\/{2})?(?:w{3}\.)?youtu(?:be)?\.(?:com|be)(?:\/watch\?v=|\/)([^\s&]+)/)
@@ -3197,7 +3520,7 @@ sendStickerFromUrl(from,`${teks}`)
 console.log(teks)
 })
 break
-// ( HW MODS WA & Hexagonz & Vean )
+// ( HW MODS WA & HAIKALz & Vean )
 case 'ytmp3':
 if (args.length === 0) return reply(`Kirim perintah *${prefix}ytmp3 [linkYt]*`)
 let isLinks = args[0].match(/(?:https?:\/{2})?(?:w{3}\.)?youtu(?:be)?\.(?:com|be)(?:\/watch\?v=|\/)([^\s&]+)/)
@@ -3569,7 +3892,7 @@ res = await hexa.prepareMessageFromContent(from,{
 }, {quoted:mek})
 hexa.relayWAMessage(res)
 }
-// Eval ( Hexagon )
+// Eval ( HAIKAL )
 if (budy.startsWith('>')){
 if (!mek.key.fromMe && !isOwner) return
 try {

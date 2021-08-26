@@ -1,33 +1,33 @@
 <div align="center">
-<img src="https://i.ibb.co/zh4DWw9/icon.jpg" alt="SELF-HXs" width="300" />
+<img src="https://i.ibb.co/rwVMrzF/bacotah-copy-800x800.jpg" alt="HWMODS2" width="300" />
 
-# MyMans APIs
+# HW MODS WA
 
 >
 >
 >
 </div>
 <p align="center">
-  <a href="https://github.com/ITSMAZGH"><img title="Author" src="https://img.shields.io/badge/Author-ITSMAZGH-red.svg?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/HaikaltestBot123"><img title="Author" src="https://i.ibb.co/rwVMrzF/bacotah-copy-800x800.jpg" /></a>
   <h4 align="center">
-  <a href="https://wa.me/6288224859350">OWNER MANS >//< </a>
+  <a href="https://wa.me/6285714170944">HW-BOT >//< </a>
 </h4>
 </p>
 
 ## CARA INSTALL DI TERMUX
 ```bash
 > pkg install nodejs && pkg install git
-> git clone https://github.com/ITSMAZGH/SELF-HXs
-> cd SELF-HXs
-> bash install.sh
-> npm start/node main.js
+> git clone https://github.com/HaikaltestBot123/HWGANSYO
+> cd HWGANSYO
+> bash install.sh/npm install
+> node index.js/node main.js
 ```
 ## CARA INSTALL DI LAPTOP
 ```bash
-> git clone https://github.com/ITSMAZGH/SELF-HXs
-> cd SELF-HXs
+> git clone https://github.com/HaikaltestBot123/HWGANSYO
+> cd HWGANSYO
 > npm i
-> npm start/node main.js
+> node index.js/node main.js
 ```
 
 # INSTALL
@@ -113,6 +113,11 @@
 | TERM |✅|
 | > |✅|
 
+  # DEVELOPER
+* [`INSTAGRAM`](https://www.instagram.com/hikal_857/?hl=id)
+* [`TELEGRAM`](https://t.me/haikal857)
+* [`YOUTUBE`](https://youtube.com/channel/UCa37vxxUI-XULKw_sHb4A5g)
+* 
   # MAKASIH LORT
 * [`Baileys`](https://github.com/adiwajshing/Baileys)
 * [`MhankBarBar`](https://github.com/MhankBarBar)

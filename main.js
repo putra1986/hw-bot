@@ -70,7 +70,21 @@ pushnem = hexa.contacts[num] != undefined ? hexa.contacts[num].notify = undefine
 				exec(`magick './media/image/wel.jpg' -gravity west -fill '#ffffff' -font './media/font/font-gue.ttf' -size 1280x710 -pointsize 75 -interline-spacing 7.5 -annotate +460-47 '${resa}' -pointsize 51 -annotate +460+83 '${jm} ${calender}' -pointsize 48 -annotate +100+230 'MEMBER + ${behys}' -pointsize 63 -annotate +460+200 'Welcome To ${mdata.subject}' '${ppimg}' -resize %[fx:t?u.w*0.2:u.w]x%[fx:?u.h*0.2:u.h] -gravity center -geometry -430+66 -composite 'hasil.jpg'`)
 				.on('error', () => hexa.sendMessage(m.chat, 'error', MessageType.text))
 				.on('exit', () => {
-			hexa.sendMessage(mdata.id, fs.readFileSync('hasil.jpg'), MessageType.image, {caption: `*Hay!!,Jangan Lupa Baca Deskripsi Dan Patuhi Peraturan Grup* @${num.split('@')[0]}`, contextInfo: { mentionedJid: [num] }})
+			hexa.sendMessage(mdata.id, fs.readFileSync('hasil.jpg'), MessageType.image, {caption: `*MY NAME HW MODS BOT*
+▬▭▬▭▬▭▬▭▬▬▭▬▭▬
+SELAMAT DATANG
+┏━━⊱
+┣❏NAMA :   
+┣❏UMUR :  
+┣❏KOTA : 
+┣❏NEGARA :
+┣❏ALASAN_GABUNG :
+┗━━⊱
+┏━━⊱
+┣❏JANGAN_LUPA_SUBSCRIBE : https://youtube.com/channel/UCa37vxxUI-XULKw_sHb4A5g
+┗━━⊱
+▬▭▬▭▬▭▬▭▬▬▭▬▭▬
+Baca_Deskripsi_Dan_Patuhi_Peraturan_Grup @${num.split('@')[0]}`, contextInfo: { mentionedJid: [num] }})
 			})
 		} else if (anu.action == 'remove') {
 		num = anu.participants[0]
@@ -99,7 +113,17 @@ pushnem = hexa.contacts[num] != undefined ? hexa.contacts[num].notify = undefine
 				exec(`magick './media/image/lev.jpg' -gravity west -fill '#ffffff' -font './media/font/font-gue.ttf' -size 1280x710 -pointsize 75 -interline-spacing 7.5 -annotate +460-47 '${resa}' -pointsize 51 -annotate +460+83 '${jamny} ${calender}' -pointsize 48 -annotate +100+230 'MEMBER - ${behys}' -pointsize 63 -annotate +460+200 'Leaving from ${mdata.subject}' '${ppimg}' -resize %[fx:t?u.w*0.2:u.w]x%[fx:?u.h*0.2:u.h] -gravity center -geometry -430+66 -composite 'hasil.jpg'`)
 				.on('error', () => hexa.sendMessage(m.chat, 'error', MessageType.text))
 				.on('exit', () => {
-			hexa.sendMessage(mdata.id, fs.readFileSync('hasil.jpg'), MessageType.image, {caption: `*Sayonara👋🏻*@${num.split('@')[0]}\n`, contextInfo: { mentionedJid: [num] }})
+			hexa.sendMessage(mdata.id, fs.readFileSync('hasil.jpg'), MessageType.image, {caption: `*MY NAME HW MODS BOT*
+▬▭▬▭▬▭▬▭▬▬▭▬▭▬
+┏━━⊱
+┣❏ BABAY BEBAN GROUP
+┗━━⊱
+SEMOGA TENANG DI ALAM SANA 👋🏻
+┏━━⊱
+┣❏SUBSCRIBE : https://youtube.com/channel/UCa37vxxUI-XULKw_sHb4A5g
+┗━━⊱
+▬▭▬▭▬▭▬▭▬▬▭▬▭▬
+Sayonara👋🏻*@${num.split('@')[0]}\n`, contextInfo: { mentionedJid: [num] }})
 			})
 		}
 	} catch (e) {
