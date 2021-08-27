@@ -17,15 +17,15 @@
 ## CARA INSTALL DI TERMUX
 ```bash
 > pkg install nodejs && pkg install git
-> git clone https://github.com/HaikaltestBot123/HWGANSYO
-> cd HWGANSYO
+> git clone https://github.com/HaikaltestBot123/hw-bot
+> cd hw-bot
 > bash install.sh/npm install
 > node index.js/node main.js
 ```
 ## CARA INSTALL DI LAPTOP
 ```bash
-> git clone https://github.com/HaikaltestBot123/HWGANSYO
-> cd HWGANSYO
+> git clone https://github.com/HaikaltestBot123/hw-bot
+> cd hw-bot
 > npm i
 > node index.js/node main.js
 ```
