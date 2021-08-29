@@ -10,51 +10,49 @@
 <p align="center">
   <a href="https://github.com/HaikaltestBot123"><img title="Author" src="https://i.ibb.co/rwVMrzF/bacotah-copy-800x800.jpg" /></a>
   <h4 align="center">
-  <a href="https://wa.me/6285714170944">HW-BOT >//< </a>
+  <a href="https://wa.me/6285714170944">HW MODS WA>//< </a>
 </h4>
 </p>
 
 ## CARA INSTALL DI TERMUX
-▬▭▬▭▬▭▬▭▬▬▭▬▭▬
-*WELCOME TO HW MODS BOT*
-▬▭▬▭▬▭▬▭▬▬▭▬▭▬
-run termos :
-pkg upgrade && pkg update
-pkg install bash
-pkg install nodejs
-pkg install ffmpeg 
-pkg install imagemagick
-pkg install git
-git clone https://github.com/HaikaltestBot123/hw-bot
-termux-setup-storage
-cd /sdcard
-cp -r nama file bot $HOME
-cd
-ls
-cd nama file
-npm install
-node main
+> ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
+> WELCOME TO HW MODS BOT
+> ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
+> pkg upgrade && pkg update
+> pkg install bash
+> pkg install nodejs
+> pkg install ffmpeg 
+> pkg install imagemagick
+> pkg install git
+> git clone https://github.com/HaikaltestBot123/hw-bot
+> termux-setup-storage
+> cd /sdcard
+> cp -r nama file bot $HOME
+> cd
+> ls
+> cd nama file
+> npm install
+> node main
 ## CARA INSTALL DI LAPTOP
-run termos :
-pkg upgrade && pkg update
-pkg install bash
-pkg install nodejs
-pkg install ffmpeg 
-pkg install imagemagick
-pkg install git
-git clone https://github.com/HaikaltestBot123/hw-bot
-termux-setup-storage
-cd /sdcard
-cp -r nama file bot $HOME
-cd
-ls
-cd nama file
-npm install
-node main
+> pkg upgrade && pkg update
+> pkg install bash
+> pkg install nodejs
+> pkg install ffmpeg 
+> pkg install imagemagick
+> pkg install git
+> git clone https://github.com/HaikaltestBot123/hw-bot
+> termux-setup-storage
+> cd /sdcard
+> cp -r nama file bot $HOME
+> cd
+> ls
+> cd nama file
+> npm install
+> node main
 
-▬▭▬▭▬▭▬▭▬▬▭▬▭▬
-*THANKS YOU ALL FOR SUBSCRIBE*
-▬▭▬▭▬▭▬▭▬▬▭▬▭▬
+> ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
+> THANKS YOU ALL FOR SUBSCRIBE
+> ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 
 # INSTALL
 * [Node.js](https://nodejs.org/en/)
@@ -62,9 +60,9 @@ node main
 * [FFmpeg](https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2020-12-08-13-03/ffmpeg-n4.3.1-26-gca55240b8c-win64-gpl-4.3.zip)
 * [Libwebp](https://developers.google.com/speed/webp/download)
 
-<point style = "font-weight: bold;"> HW MODS WA </br>
-</p>
-    <hr/>
+> ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
+> MY SOCIAL MEDIA DEVELOPER
+> ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 
 </font>
 <h3><font size="3"><a href="https://youtube.com/channel/UCa37vxxUI-XULKw_sHb4A5g"><font color="red">SUBSCRIBE</font>
